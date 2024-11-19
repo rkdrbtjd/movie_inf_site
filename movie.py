@@ -7,10 +7,10 @@ movie_data = pd.read_csv(r"C:\Users\강규성\Documents\Python Scripts\movie_dat
 
 # 파이썬과 MySQL 연동
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="kskang2001@",
-    database="moviedb"
+    host="",
+    user="",
+    password="",
+    database=""
 )
 cursor = conn.cursor(dictionary = True)
 
